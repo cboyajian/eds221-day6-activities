@@ -48,7 +48,7 @@ legal_lobsters <- lobsters %>%
 ggplot(data = legal_lobsters, aes(x = site,
                                   y = total_legal,
                                   fill = legal)) +
-  geom_col(position = "fill")
+  geom_col(position = "fill") +
   labs(x = "Site Code",
        y = "Total Lobster Count Percent")
 ```
